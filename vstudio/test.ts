@@ -6,7 +6,7 @@ function isPrimeNumber(n: number){
     if (n % num === 0) {
       return false;
     }
-    return true;
   }
+  return true;
 }
 console.log(isPrimeNumber(2));
