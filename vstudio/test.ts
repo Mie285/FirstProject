@@ -1,4 +1,4 @@
-function isPrimeNumber(n: number): Boolean {
+function isPrimeNumber(n: number){
   if (n < 2) {
     return false;
   }
@@ -9,4 +9,4 @@ function isPrimeNumber(n: number): Boolean {
     return true;
   }
 }
-console.log(isPrimeNumber(12));
+console.log(isPrimeNumber(2));
