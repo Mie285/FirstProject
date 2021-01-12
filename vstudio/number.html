@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    body {
+        background-image: url('https://www.ca-decor.com/wp-content/uploads/2018/11/722758.jpg');
+    }
+
+    h1 {
+        font-family: monospace;
+    }
+
+    button {
+        font-family: cursive;
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <center>
+        <h1>Check Prime number...</h1>
+        <input type="number" id="number1" value="" />
+        <br><br><button onclick="checkInput()">Check</button> </br></br>
+        <p id="enter"></p>
+    </center>
+
+    <script>
+        function checkInput() {
+            var n = document.getElementById("number1").value;
+            document.getElementById("enter").innerHTML = n + " " + " is prime number :" + " "
+                + primenumber(n); //เรียก function primenumberมาใช้
+        }
+
+        function primenumber(n) {
+            for (let i = 2; i < n; i++) {
+                if (n % i === 0) {
+                    return false;
+                }
+            }
+            return n > 1;
+        }
+
+    </script
+</body>
+
+
+</html>
