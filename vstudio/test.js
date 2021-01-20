@@ -9,4 +9,4 @@ function isPrimeNumber(n) {
     }
     return true;
 }
-document.write()
+console.log(isPrimeNumber(2));
